@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 
 // Components
 import ProfileIcon from './ProfileIcon';
-import AccentButton from '../global/AccentButton';
-import Logo from '../global/Logo';
+import AccentButton from '../globalThis/AccentButton';
+import Logo from '../globalThis/Logo';
 import Searchbar from './Searchbox';
 
 // Images

@@ -11,10 +11,10 @@ import ProjectDetails from './pages/ProjectDetails';
 import GetStarted from './pages/GetStarted';
 import Profile from './pages/Profile';
 import Search from './pages/Search';
-import Footer from './components/global/Footer';
+import Footer from './components/globalThis/Footer';
 
 // CSS
-import './global.css';
+import './globalThis.css';
 import './App.css';
 
 // Fonts

@@ -7,9 +7,9 @@ import { handleNavigateToProject, calculateBarPercentage } from '../utils'
 import { useStateContext } from '../context/contractInterface';
 
 // Components
-import Card from '../components/global/Card';
-import Loader from '../components/global/Loader';
-import AccentButton from '../components/global/AccentButton';
+import Card from '../components/globalThis/Card';
+import Loader from '../components/globalThis/Loader';
+import AccentButton from '../components/globalThis/AccentButton';
 
 // CSS
 import './Home.css';

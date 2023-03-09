@@ -7,8 +7,8 @@ import { handleNavigateToProject } from '../utils'
 import { useStateContext } from "../context/contractInterface";
 
 // Components
-import Card from '../components/global/Card';
-import Loader from '../components/global/Loader';
+import Card from '../components/globalThis/Card';
+import Loader from '../components/globalThis/Loader';
 
 // CSS
 import './Search.css';

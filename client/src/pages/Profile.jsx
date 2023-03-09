@@ -7,9 +7,9 @@ import { handleNavigateToProject } from '../utils'
 import { useStateContext } from "../context/contractInterface";
 
 // Components
-import Loader from '../components/global/Loader'
-import Card from '../components/global/Card';
-import AccentButton from '../components/global/AccentButton';
+import Loader from '../components/globalThis/Loader'
+import Card from '../components/globalThis/Card';
+import AccentButton from '../components/globalThis/AccentButton';
 
 // CSS
 import './Profile.css';

@@ -8,13 +8,13 @@ import { toSvg } from '../utils/jdenticon';
 import { useStateContext } from '../context/contractInterface';
 
 // Components
-import Loader from '../components/global/Loader';
-import AccentButton from '../components/global/AccentButton';
+import Loader from '../components/globalThis/Loader';
+import AccentButton from '../components/globalThis/AccentButton';
 import DonatorRow from '../components/projectDetails/DonatorRow'
 
 // CSS
 import './ProjectDetails.css';
-import NotificationWindow from '../components/global/NotificationWindow';
+import NotificationWindow from '../components/globalThis/NotificationWindow';
 
 /**
  * Project details page component

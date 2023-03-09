@@ -11,7 +11,7 @@ import { StateContextProvider } from './context/contractInterface';
 import App from './App';
 
 // CSS
-import './global.css';
+import './globalThis.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

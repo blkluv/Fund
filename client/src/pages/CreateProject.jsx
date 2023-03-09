@@ -8,10 +8,10 @@ import { checkIfImage } from '../utils';
 import { useStateContext } from "../context/contractInterface";
 
 // Components
-import Loader from '../components/global/Loader';
-import AccentButton from '../components/global/AccentButton';
+import Loader from '../components/globalThis/Loader';
+import AccentButton from '../components/globalThis/AccentButton';
 import TextField from '../components/createProject/TextField'
-import NotificationWindow from '../components/global/NotificationWindow';
+import NotificationWindow from '../components/globalThis/NotificationWindow';
 
 // CSS
 import './CreateProject.css';
