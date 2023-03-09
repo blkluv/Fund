@@ -1,0 +1,37 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin: 64px;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+  font-size: 24px;
+  color: white;
+}
+
+.loader > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  perspective: 200px;	
+}
+
+.loader > div > .loader-1 {
+  position: absolute;
+  transform: rotateY(0deg);
+  animation: rotateAnimation 2s ease infinite;
+}
+
+@keyframes rotateAnimation {
+	from {
+    transform: rotateY(0);
+  }
+	to {
+    transform: rotateY(360deg);
+  }
+}

@@ -1,0 +1,164 @@
+.card {
+  border-radius: 16px;
+  background-color: #16151cc5;
+  border: 2px solid #26262C;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  backdrop-filter: blur(16px);
+}
+
+.card:hover {
+  border-radius: 16px;
+  background-color: #1b1a23;
+  border: 2px solid #5f5f64;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card > .image-container {
+  aspect-ratio: 1/1;
+  border: 2px solid #1E1D23;
+  border-radius: 8px;
+  background-color: #0D0C12;
+  overflow: hidden;
+}
+
+.card > .image-container > img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+
+.card > .title {
+  margin-top: 8px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 500, 'slnt' 0, 'CRSV' 0;
+  transition: font-variation-settings 0.2s ease;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.card > .owner {
+  margin-top: 4px;
+  color: #6B6B6F;
+  font-size: 12px;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card > .details {
+  margin-top: 4px;
+  color: #b3b3b7;
+  font-size: 16px;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card > .owner > .profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card > .detail-container {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card > .detail-container > .percentage {
+  color: var(--accent);
+  font-size: 16px;
+  font-variation-settings: 'MONO' 1, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+}
+
+.card > .detail-container > .percentage > span {
+  color: #7245a9;
+  font-size: 16px;
+  font-variation-settings: 'MONO' 1, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+}
+
+.card > .detail-container > .time {
+  color: var(--text-1);
+  font-size: 16px;
+  font-variation-settings: 'MONO' 0, 'CASL' 0, 'wght' 400, 'slnt' 0, 'CRSV' 0;
+}
+
+.card > .progress-container {
+  margin-top: 4px;
+  background-color: #0D0C12;
+  border: 2px solid #1E1D23;
+  height: 16px;
+  border-radius: 1000px;
+  padding: 2px;
+}
+
+.card > .progress-container > .progress {
+  background: var(--accent-gradient);
+  border: 2px solid #ffffff38;
+  min-width: 8px;
+  height: 100%;
+  border-radius: 1000px;
+  animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.card > .goalReachedLabel {
+  position: absolute;
+  padding: 8px 16px;
+  background: var(--accent-gradient);
+  border-radius: 32px;
+  top: 8px;
+  right: -16px;
+  transform: rotateZ(15deg);
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 10px 55px;
+  border: 2px solid rgba(255, 255, 255, 0.509);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: white;
+  animation: goalReachedLabelAnimation 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-hor-left {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes goalReachedLabelAnimation {
+  0% {
+    transform: scale(0) rotateZ(-15deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotateZ(15deg);
+    opacity: 1;
+  }
+}
