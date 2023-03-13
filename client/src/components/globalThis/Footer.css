@@ -32,3 +32,18 @@
   font-size: 16px;
   font-variation-settings: 'MONO' 0, 'CASL' 1, 'wght' 800, 'slnt' -15, 'CRSV' 0;
 }
+
+.github-link {
+  margin-top: 10px;
+  display: flex;
+  
+  align-self: center;
+  
+}
+.copy {
+  margin-top: 10px;
+  display: flex;
+  
+  align-self: center;
+  
+}
