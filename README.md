@@ -1,4 +1,4 @@
-# FundiFi
+# [FundiFi](https://fundifi.vercel.app/)
 
 This repository contains the code of FundiFi, the decentralized application (DApp) project.
 
