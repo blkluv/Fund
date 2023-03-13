@@ -1,6 +1,6 @@
 // Modules
 import React from 'react';
-
+import github from "../../assets/img/github.png";
 // Components
 import Logo from './Logo';
 
@@ -34,7 +34,7 @@ const Footer = () => {
 
       <div className='github-link'>
         <a href='https://github.com/suyashXD/FundiFi' target='_blank'>
-  <img src='github-mark-white.png' style ={{width: "32px", height: '32px'}} />
+  <img src={github} style ={{width: "32px", height: '32px'}} />
 </a>
 
 </div>
