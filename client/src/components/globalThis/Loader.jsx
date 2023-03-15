@@ -21,7 +21,7 @@ const Loader = ({ text }) => {
       <div>
 
         {/* Spinner */}
-        <svg className='loader-0' width="128" height="128" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#a261f3">
+        <svg className='loader-0' width="128" height="128" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#74C69D">
           <g fill="none" fillRule="evenodd">
             <g transform="translate(1 1)" strokeWidth="2">
               <circle stroke='#26262C' cx="18" cy="18" r="18"/>
@@ -43,12 +43,12 @@ const Loader = ({ text }) => {
         <svg className='loader-1' xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 1000 1000">
           <defs>
             <linearGradient id="linear-gradient" x1="1" x2="0.001" gradientUnits="objectBoundingBox">
-              <stop offset="0%" stopColor="#5700FF">
-                <animate attributeName="stop-color" values="#5700FF; #b451ff; #5700FF" dur="1s" repeatCount="indefinite"></animate>
-              </stop>
-              <stop offset="100%" stopColor="#b451ff">
-                <animate attributeName="stop-color" values="#b451ff; #5700FF; #b451ff" dur="1s" repeatCount="indefinite"></animate>
-              </stop>
+            <stop offset="0%" stopColor="#40916C">
+              <animate attributeName="stop-color" values="#40916C; #B7E4C7; #40916C" dur="1s" repeatCount="indefinite"></animate>
+            </stop>
+            <stop offset="100%" stopColor="#B7E4C7">
+              <animate attributeName="stop-color" values="#B7E4C7; #40916C; #B7E4C7" dur="1s" repeatCount="indefinite"></animate>
+            </stop>
             </linearGradient>
           </defs>
           <path id="Path_28" data-name="Path 28" d="M1000,363.636C1000,162.94,837.06,0,636.364,0H363.636C162.94,0,0,162.94,0,363.636V636.364C0,837.06,162.94,1000,363.636,1000H636.364C837.06,1000,1000,837.06,1000,636.364Z" fillRule="evenodd" fill="url(#linear-gradient)"/>

@@ -56,11 +56,11 @@ const Home = () => {
       <svg className='thing' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.06 122.88">
         <defs>  
           <linearGradient id="logo-gradient" x1="0%" y1="50%" x2="100%" y2="50%" > 
-            <stop offset="0%" stopColor="#5700FF">
-              <animate attributeName="stop-color" values="#5700FF; #b451ff; #5700FF" dur="1s" repeatCount="indefinite"></animate>
+          <stop offset="0%" stopColor="#40916C">
+              <animate attributeName="stop-color" values="#40916C; #B7E4C7; #40916C" dur="1s" repeatCount="indefinite"></animate>
             </stop>
-            <stop offset="100%" stopColor="#b451ff">
-              <animate attributeName="stop-color" values="#b451ff; #5700FF; #b451ff" dur="1s" repeatCount="indefinite"></animate>
+            <stop offset="100%" stopColor="#B7E4C7">
+              <animate attributeName="stop-color" values="#B7E4C7; #40916C; #B7E4C7" dur="1s" repeatCount="indefinite"></animate>
             </stop>
           </linearGradient> 
         </defs>

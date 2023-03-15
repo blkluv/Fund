@@ -5,14 +5,16 @@ export const dummyDonatorList = [
     donator: "THESE ARE PLACEHOLDERS",
     donation: 0.000
   },
-  {
-    donator: "0x53aAfC4b1c7F1AFd83CAc2A43620380c03F5a45e",
-    donation: 0.001
-  },
+
   {
     donator: "0xB0c71d56b8A250Eb2C64EeC92Fd5F4b039bFcBF9",
     donation: 0.002
   },
+  {
+    donator: "0x53aAfC4b1c7F1AFd83CAc2A43620380c03F5a45e",
+    donation: 0.001
+  },
+  
   {
     donator: "0xc41da99F461a551346DF88c7C3f7f69f659650F1",
     donation: 0.004
