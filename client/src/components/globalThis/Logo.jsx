@@ -21,7 +21,7 @@ const Logo = () => {
     <button to="/" className='logo' onClick={() => handleClick()}>
 
       {/* Logo SVG */}
-    <img src ="../../../src/fundifi32.png"/>
+    <img src ="https://www.linkpicture.com/q/fundifi32.png"/>
 
       {/* Logo name */}
       <p className='text'>
