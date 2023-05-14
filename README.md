@@ -1,6 +1,6 @@
-# [FundiFi](https://fundifi.vercel.app/)
+# [FundiFi](https://fundfi.luvnft.com)
 
-This repository contains the code of FundiFi, the decentralized application (DApp) project.
+This repository contains the code of FundFi, the decentralized application (DApp) project.
 
 ### 📦 Packages and technologies
 

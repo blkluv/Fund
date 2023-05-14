@@ -23,8 +23,8 @@ const Footer = () => {
       {/* Links to pages */}
       <div className='links'>
         <a href='/'>Home</a>
-        <a href='/get-started'>Get Started</a>
-        <a href='/create-project'>Create Project</a>
+        <a href='/get-started'>Start</a>
+        <a href='/create-project'>Create Fund</a>
         <a href='/search'>Search</a>
         <a href='/profile'>Profile</a>
         <a href='/'>About</a>
@@ -32,15 +32,14 @@ const Footer = () => {
         
       </div>
 
-      <div className='github-link'>
-        <a href='https://github.com/suyashXD/FundiFi' target='_blank'>
-  <img src={github} style ={{width: "32px", height: '32px'}} />
-</a>
-
+<div className='luv-nft-link'>
+  <a href='https://luvnft.com' target='_blank' rel='noopener noreferrer'>
+    💜
+  </a>
 </div>
 <div className="copy">
-<p>&copy; FundiFi {new Date().getFullYear()}
-            &nbsp;All rights reserved.</p>
+<p>&copy; FundFi LUV NFT {new Date().getFullYear()}
+            &nbsp;Made With LUV</p>
             </div>
       
     </div>

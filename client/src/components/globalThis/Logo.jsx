@@ -21,11 +21,11 @@ const Logo = () => {
     <button to="/" className='logo' onClick={() => handleClick()}>
 
       {/* Logo SVG */}
-    <img src ="https://www.linkpicture.com/q/fundifi32.png"/>
+    <img src ="https://www.arvrtise.com/wp-content/uploads/2023/05/fundfi32.png"/>
 
       {/* Logo name */}
       <p className='text'>
-        Fundi<span>Fi</span>
+        FUND<span>Fi</span> LUV NFT
       </p>
 
     </button>
