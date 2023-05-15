@@ -8,7 +8,7 @@ import { dummyDonatorList } from './dummyDonatorList';
 const StateContext = createContext(); // Create a react context
 
 export const StateContextProvider = ({ children }) => {
-  const { contract } = useContract("0x7C7E82e210A4B0dA5235A1363e75998fEDDF5104"); // Connect with contract
+  const { contract } = useContract("0x9cF95Cf0c67fbD0182890C899a738C5222157D34"); // Connect with contract
 
   const address = useAddress(); // Get user address
   const connect = useMetamask(); // Get connect with Metamask function
